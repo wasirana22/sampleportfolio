@@ -1,0 +1,177 @@
+body{
+    background-color: #0a0a0a;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.head{
+    display: flex;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(56, 55, 55);
+    margin-bottom: 30px;
+}
+#Portfolio{
+    padding-right:660px ;
+    margin-top: 0;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.about{
+    background-color: #000000;
+    padding-left:30px ;
+    display: flex;
+    border-bottom: 3px solid rgb(56, 55, 55);
+}
+#aboutme{
+    padding-left: 30px;
+    font-size: 40px;
+}
+#color{
+    color: rgb(214, 149, 19);
+    font-size: 50px;
+}
+#color:hover{
+    transform: scale(1.1);
+}
+#intro{
+    font-size: 40px;
+}
+#hey{
+    font-size: 100px;
+}
+.myself{
+    width: 600px;
+    font-size: 25px;
+}
+.image{
+    padding-left: 45px;
+    image-resolution: 100%;
+}
+#project{
+    padding-top: 30px;
+display: flex;
+justify-content: space-around;
+padding-bottom: 50px;
+border-bottom: 3px solid rgb(56, 55, 55);
+margin-bottom: 30px;
+
+}
+.project1,
+.project2,
+.project3 {
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    height: 300px;
+    width: 250px;
+    border: 2px solid rgb(55, 55, 55);
+    border-radius: 10px;
+     box-shadow: #0a0a0a;
+    
+}
+#project a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+.project1:hover{
+    transform: scale(1.20) ;
+    cursor: pointer;
+}
+.project2:hover{
+    transform: scale(1.20) ;
+    cursor: pointer;
+}
+.project3:hover{
+    transform: scale(1.20) ;
+    cursor: pointer;
+}
+#contactdisplay{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-bottom: 40px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    border-bottom: 3px solid rgb(56, 55, 55);
+margin-bottom: 30px;
+padding-bottom: 30px;
+}
+#mycontact,
+#msg{
+    width: 500px;
+}
+#social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.fa-brands, .fab {
+    font-weight: 400;}
+
+    #mycontact{
+        padding-top: 40px;
+    }
+form {
+        display: block;
+        margin-top: 0em;
+        unicode-bidi: isolate;
+}
+#name,
+#email,
+#message{
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius:5px;
+    cursor: pointer;
+    background-color: #24bbb1;
+}
+#submit:hover{
+    transform: scale(1.14);
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+} 
+#social{
+    display: inline-block;
+}
+#linked:hover{
+    transform: scale(1.17);
+    background-color: #24bbb1;
+}
+#insta:hover{
+    transform: scale(1.17);
+    background-color: #24bbb1;
+}
+#github:hover{
+    transform: scale(1.17);
+    background-color: #24bbb1;
+}
